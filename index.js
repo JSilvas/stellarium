@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { render } from 'react-dom';
-import Hello from './Hello';
+import Hello from './components/Hello';
+import Sandbox from './components/Sandbox';
 import './style.css';
 
 class App extends Component {
@@ -18,6 +19,7 @@ class App extends Component {
         <p>
           Start editing to see some magic happen :)
         </p>
+        <Sandbox />
       </div>
     );
   }
