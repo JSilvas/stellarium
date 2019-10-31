@@ -1,6 +1,5 @@
 import React from 'react';
-
-import '../style.css';
+import './Sandbox.css';
 
 class Sandbox extends React.Component {
   constructor(props) {
@@ -24,7 +23,6 @@ class Sandbox extends React.Component {
     const balls = [];
 
     // Ball Constructor
-
     function Ball(x, y, velX, velY, color, size) {
       this.x = x;
       this.y = y;
@@ -121,7 +119,7 @@ class Sandbox extends React.Component {
 
     // Animation Loop
     function loop() {
-      ctx.fillStyle = 'rgba(0, 0, 0, 0.25)';  // draws new window background. Last param adjusts transparency
+      ctx.fillStyle = 'rgba(0, 5, 25, 0.25)';  // draws new window background. Last param adjusts transparency
       ctx.fillRect(0, 0, width, height);
 
       while (balls.length < 10) { // max number of balls at a time
@@ -166,7 +164,6 @@ class Sandbox extends React.Component {
   render() {
     return (
       <div className="Sandbox">
-        <h1 classname="hero-title">Stellarium - Jay Silvas</h1>
         <canvas ref={this.canvasRef} />
       </div>
     );
