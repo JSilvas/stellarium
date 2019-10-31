@@ -1,6 +1,7 @@
 import React from 'react';
-import logo from './logo.svg';
+import logo from '../logo.svg';
 import './App.css';
+import Sandbox from './Sandbox';
 
 function App() {
   return (
@@ -8,17 +9,18 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+        A revival of <strong>Stellar</strong> in React.js explore emergent dynamics
         </p>
         <a
           className="App-link"
-          href="https://reactjs.org"
+          href="https://jaysilvas.dev/"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          More Projects
         </a>
       </header>
+      <Sandbox />
     </div>
   );
 }
