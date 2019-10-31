@@ -1,22 +1,68 @@
+/* * {
+  outline: 1px dotted orange;
+}   */
+
+html, body {
+  margin: 0;
+}
+
+html {
+  font-family: 'Lato', Helvetica, Arial, sans-serif;
+  height: 100%;
+}
+
+body {
+  overflow: hidden;
+  height: inherit;
+}
+
 .App {
   text-align: center;
 }
 
 .App-logo {
-  height: 10vmin;
+  height: 5vmin;
+  min-height: 2em;
+  vertical-align: middle; 
 }
+
 
 .App-header {
   background-color: #282c34;
   min-height: 10vh;
+  padding: 2vmin 1rem;
   display: flex;
   flex-direction: column;
   align-items: left;
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  overflow: hidden;
+  height: inherit;
+  width: inherit;
 }
 
 .App-link {
+  display: inline-block;
+  text-align: center;
+  margin: 0 auto;
   color: #09d3ac;
+  border-radius: 5px;
+}
+.App-link:hover {
+  background: #ff0050;
+  color: #282c34;
+}
+
+h1 {
+  font-size: 2rem;
+  letter-spacing: -1px;
+  color: white;
+  text-shadow: 0 0 4px white;
+  align-content: center;
+  margin-bottom: 0;
+}
+
+.App-header h1 div {
+  display: inline-flex;
 }

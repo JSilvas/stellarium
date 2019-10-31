@@ -7,9 +7,13 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <h1 className="hero-title">
+          <div>Stellarium</div> 
+          <img src={logo} className="App-logo" alt="logo" /> 
+          <div>Jay Silvas</div>
+        </h1>
         <p>
-        A revival of <strong>Stellar</strong> in React.js explore emergent dynamics
+        A revival of <em>Stellar</em> in React.js exploring emergent dynamics
         </p>
         <a
           className="App-link"

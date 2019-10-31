@@ -164,7 +164,6 @@ class Sandbox extends React.Component {
   render() {
     return (
       <div className="Sandbox">
-        <h1 classname="hero-title">Stellarium - Jay Silvas</h1>
         <canvas ref={this.canvasRef} />
       </div>
     );
