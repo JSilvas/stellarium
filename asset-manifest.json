@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Stellarium/static/css/main.b100e6da.chunk.css",
+    "main.js": "/Stellarium/static/js/main.745fcc73.chunk.js",
+    "main.js.map": "/Stellarium/static/js/main.745fcc73.chunk.js.map",
+    "runtime-main.js": "/Stellarium/static/js/runtime-main.bc09ad0d.js",
+    "runtime-main.js.map": "/Stellarium/static/js/runtime-main.bc09ad0d.js.map",
+    "static/js/2.b49ab61c.chunk.js": "/Stellarium/static/js/2.b49ab61c.chunk.js",
+    "static/js/2.b49ab61c.chunk.js.map": "/Stellarium/static/js/2.b49ab61c.chunk.js.map",
+    "index.html": "/Stellarium/index.html",
+    "precache-manifest.a373fa6015ff8690270879a8c4fd756c.js": "/Stellarium/precache-manifest.a373fa6015ff8690270879a8c4fd756c.js",
+    "service-worker.js": "/Stellarium/service-worker.js",
+    "static/css/main.b100e6da.chunk.css.map": "/Stellarium/static/css/main.b100e6da.chunk.css.map",
+    "static/media/logo.svg": "/Stellarium/static/media/logo.25bf045c.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.bc09ad0d.js",
+    "static/js/2.b49ab61c.chunk.js",
+    "static/css/main.b100e6da.chunk.css",
+    "static/js/main.745fcc73.chunk.js"
+  ]
+}
