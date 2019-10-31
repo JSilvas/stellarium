@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/Stellarium/precache-manifest.9d7fabcd5a6d5b5e8bc15eb0581f7006.js"
+  "/Stellarium/precache-manifest.9b775107783151a932547968fe239b6e.js"
 );
 
 self.addEventListener('message', (event) => {
