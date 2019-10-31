@@ -119,7 +119,7 @@ class Sandbox extends React.Component {
 
     // Animation Loop
     function loop() {
-      ctx.fillStyle = 'rgba(0, 0, 0, 0.25)';  // draws new window background. Last param adjusts transparency
+      ctx.fillStyle = 'rgba(0, 5, 25, 0.25)';  // draws new window background. Last param adjusts transparency
       ctx.fillRect(0, 0, width, height);
 
       while (balls.length < 10) { // max number of balls at a time
