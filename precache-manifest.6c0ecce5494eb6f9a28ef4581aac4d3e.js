@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "419b2b05954e581047fffc07007053b1",
+    "revision": "3603d098a03c0b8ebbc17276f2d2c22f",
     "url": "/Stellarium/index.html"
   },
   {
-    "revision": "f53ff7a6994617e700e9",
-    "url": "/Stellarium/static/css/main.7df25112.chunk.css"
+    "revision": "1fa555fcd74bb169a8e4",
+    "url": "/Stellarium/static/css/main.645b3bc7.chunk.css"
   },
   {
-    "revision": "6b4ea0b4b8c1f7b9391a",
-    "url": "/Stellarium/static/js/2.109304d5.chunk.js"
+    "revision": "e5a4dc9154dee78bb4e6",
+    "url": "/Stellarium/static/js/2.e1b7d03f.chunk.js"
   },
   {
-    "revision": "f53ff7a6994617e700e9",
-    "url": "/Stellarium/static/js/main.a116bf60.chunk.js"
+    "revision": "1fa555fcd74bb169a8e4",
+    "url": "/Stellarium/static/js/main.d05dc391.chunk.js"
   },
   {
     "revision": "39ef03876d16a6b13869",
