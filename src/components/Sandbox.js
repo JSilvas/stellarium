@@ -9,12 +9,17 @@ class Sandbox extends React.Component {
 
   componentDidMount() {
     // setup canvas
-    const canvas = this.canvasRef.current;
+    var canvas = document.querySelector('canvas');
+    // const canvas = this.canvasRef.current;
     const ctx = canvas.getContext('2d');
     // context.fillRect(0, 0, canvas.width, canvas.height);
 
-    var width = canvas.width = window.innerWidth;
-    var height = canvas.height = window.innerHeight;
+
+    canvas.width = window.innerWidth;
+    canvas.height = window.innerHeight;
+
+    // var width = canvas.width = window.innerWidth;
+    // var height = canvas.height = window.innerHeight;
 
     // const colors = [
     //   '#2185C5',
@@ -27,11 +32,11 @@ class Sandbox extends React.Component {
     // let friction = 0.98;
   
     // Event Listeners
-    // window.addEventListener("resize", function() {
-    //   canvas.width = window.innerWidth;	
-    //   canvas.height = window.innerHeight;
-    //   init();
-    // });
+    window.addEventListener("resize", function() {
+      canvas.width = window.innerWidth;	
+      canvas.height = window.innerHeight;
+      loop();
+    });
 
     // Helper Functions
     // const randomColor = colors => {
@@ -75,7 +80,7 @@ class Sandbox extends React.Component {
 
     // Calc Window Edge Collision for balls
     Ball.prototype.update = function() {
-      if ((this.x + this.size) >= width) {
+      if ((this.x + this.size) >= canvas.width) {
         this.velX = -(this.velX);
       }
 
@@ -83,7 +88,7 @@ class Sandbox extends React.Component {
         this.velX = -(this.velX);
       }
 
-      if ((this.y + this.size) >= height) {
+      if ((this.y + this.size) >= canvas.height) {
         this.velY = -(this.velY);
       }
 
@@ -129,8 +134,8 @@ class Sandbox extends React.Component {
 
     function spawnBalls() { // Spawn random balls
       var ball = new Ball(
-        random(0,width),
-        random(0,height),
+        random(0,canvas.width),
+        random(0,canvas.height),
         random(-7,7), // X axis velocity
         random(-7,7), // Y axis velocity
         'rgb(' + random(0,255) + ',' + random(0,255) + ',' + random(0,255) +')',
@@ -142,7 +147,7 @@ class Sandbox extends React.Component {
     // Animation Loop
     function loop() {
       ctx.fillStyle = 'rgba(0, 5, 25, 0.25)';  // draws new window background. Last param adjusts transparency
-      ctx.fillRect(0, 0, width, height);
+      ctx.fillRect(0, 0, canvas.width, canvas.height);
 
       while (balls.length < 10) { // max number of balls at a time
         spawnBalls();
