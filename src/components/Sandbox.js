@@ -16,6 +16,28 @@ class Sandbox extends React.Component {
     var width = canvas.width = window.innerWidth;
     var height = canvas.height = window.innerHeight;
 
+    // const colors = [
+    //   '#2185C5',
+    //   '#7ECEFD',
+    //   '#FFF6E5',
+    //   '#FF7F66'
+    // ];
+    
+    // let gravity = 0.2;
+    // let friction = 0.98;
+  
+    // Event Listeners
+    // window.addEventListener("resize", function() {
+    //   canvas.width = window.innerWidth;	
+    //   canvas.height = window.innerHeight;
+    //   init();
+    // });
+
+    // Helper Functions
+    // const randomColor = colors => {
+    //   return colors[Math.floor(Math.random() * colors.length)];
+    // }
+
     // easy check of viewport resolution
     // const view = (width + ' x ' + height);
 
